@@ -1,0 +1,67 @@
+/* h3 {
+  color: #3454d8;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: 'Roboto', 'sans-serif';
+  border-left: 5px solid #8cbdff;
+  margin: 10%;
+  line-height: 1.6;
+}
+
+h1 {
+  font-family: 'Charmonman', 'cursive';
+  font-size: 30px;
+  margin: 10%;
+}
+
+body {
+  border: 30px solid #808fa3;
+  margin: 10%;
+  padding: 20px;
+}
+
+#divider {
+  border-top: 3px solid #29476d;
+} */
+
+body {
+  border: 30px solid #808fa3;
+  padding: 20px;
+  max-width: 700px;
+  width: 80%;
+  margin: 20px auto;
+  font-family: 'Roboto', sans-serif;
+  /* top and bottom 0 left and right auto for centering */
+}
+
+h1 {
+  font-family: 'Charmonman', 'Times New Roman', Times, serif;
+}
+
+/* max width is the size when screen is full
+the width then after is for when the screen is less than fullsized
+will make page responsive */
+
+/* applying font family to body means all font inside will be the specified fnt
+you can use specific fonts like in the h1 */
+
+.quote {
+  border-left: 5px solid #8cbdff;
+  padding-left: 5px;
+}
+/* padding can be put between item and border */
+/* padding is between border and element */
+/* both on left because thats where we need padding/border */
+
+#date {
+  color: #3454d8;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+/* letter spacing is space between each letter
+word spacing is spacing between each word */
+
+/* rem is based on root size so letter spacing is 0.2 spaced from font size */

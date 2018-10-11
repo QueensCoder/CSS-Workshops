@@ -1,0 +1,43 @@
+p {
+  width: 50%;
+  border: 2px solid blue;
+  /* padding: 10px; */
+  /* paddig gives padding  in any direction */
+  /* in inspect blue is content, green is padding */
+  /* orange is margin */
+  padding-left: 40px;
+  /* padding changes space inside of border */
+  /* margin: 100px; */
+  /* margin changes space outside of borders */
+  /* margin: 20px 40px 500px 100px; */
+  /* to do specific for all left right top and bottom */
+  margin: auto auto auto auto;
+}
+
+/* can do border, padding or margin  top/left/right/bottom
+to affect the specific areas */
+/* otherwise border, padding or margin affects area all around of item topleftrightbottom */
+
+table {
+  margin: auto;
+}
+
+td {
+  width: 100px;
+  height: 100px;
+}
+
+.vert {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.side {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+h1 {
+  text-align: center;
+}
+/* how to align text in a certain place */
